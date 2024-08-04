@@ -78,29 +78,3 @@
     max-height: 15rem;
     max-width: auto;
 }
-
-@media (max-width: 414px) and (max-height: 896px) {
-  h1{
-     font-size: 3rem;
-  }
-
-  h3 {
-     font-size: 1.3rem;
-  }
-
-  p {
-     font-size: 15px;
-  }
-
-  header {
-    display: flex;
-    min-width: 414px;
-    padding: 1px;
-  }
-
-  a {
-    font-size: 14px;
-    padding-left: 0.9rem;
-
-  }
-}
