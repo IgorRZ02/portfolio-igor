@@ -1,23 +1,26 @@
 .inicio {
     display: grid;
     font-size: 2rem;
-    padding-top: 21rem;
+    padding-top: 24rem;
     padding-left: 5rem;
 }
 
 .fundo-principal {
-    background-image: url(assets/img/bg-portfolio.jpg);
+    background-image: url(assets/img/endless-constellation.svg);
     background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
     color: rgb(214, 214, 214);
 }
 
 .programador {
+    display: block;
+    margin-left: 70rem;
+}
+
+.programador img {
     display: flex;
     position: absolute;
-    padding-left: 65rem;
-    bottom: 9rem;
-    height: 38rem;
+    height: 500px;
     width: auto;
 }
 
@@ -75,6 +78,6 @@
     display: flex;
     padding-left: 45rem;
     justify-content: space-between;
-    max-height: 15rem;
+    max-height: 20rem;
     max-width: auto;
 }
