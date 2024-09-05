@@ -81,3 +81,12 @@
     max-height: 20rem;
     max-width: auto;
 }
+
+.redes-sociais img {
+    display: flex;
+    height: 5rem;
+    width: auto;
+    padding-top: 18rem;
+    padding-bottom: 0;
+    filter: invert(82%)
+}
